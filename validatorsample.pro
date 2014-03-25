@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    qevenintvalidator.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    qevenintvalidator.h
 
 FORMS    += mainwindow.ui
